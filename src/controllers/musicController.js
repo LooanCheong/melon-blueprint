@@ -1,4 +1,4 @@
-import Song from "../models/Song";
+import Song from "../models/Music";
 import User from "../models/User";
 
 export const home = async (req, res) => {
