@@ -2,3 +2,7 @@ extends base
 
 block content
     div
+        each music in musics
+            +music(music)
+        else
+            span 음악을 찾을 수 없습니다
